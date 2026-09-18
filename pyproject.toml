@@ -1,0 +1,17 @@
+[project]
+name = "2026-09-18"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "鍾允碩", email = "D1515375@o365.fcu.edu.tw" }
+]
+requires-python = ">=3.12"
+dependencies = []
+
+[project.scripts]
+2026-09-18 = "2026_09_18:main"
+
+[build-system]
+requires = ["uv_build>=0.12.13,<0.13.0"]
+build-backend = "uv_build"
